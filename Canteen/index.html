@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canteen Menu</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2f6b4f;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin-bottom: 5px;
+            font-size: 32px;
+        }
+
+        header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .menu-section {
+            background: white;
+            margin-bottom: 25px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .menu-section h2 {
+            color: #2f6b4f;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e5e5e5;
+            padding-bottom: 8px;
+        }
+
+        .menu-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-list li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .menu-list li:last-child {
+            border-bottom: none;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .item-name {
+            font-weight: 600;
+        }
+
+        .item-description {
+            font-size: 14px;
+            color: #777;
+            margin-top: 2px;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #2f6b4f;
+            white-space: nowrap;
+            margin-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 26px;
+            }
+
+            .menu-list li {
+                align-items: flex-start;
+            }
+
+            .price {
+                margin-left: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Campus Canteen</h1>
+        <p>Fresh food. Great prices. Every day.</p>
+    </header>
+
+    <main class="container">
+
+        <section class="menu-section">
+            <h2>Campus Canteen Menu</h2>
+
+            <ul class="menu-list">
+                <li>
+                    Idli Sambar - ₹40
+                </li>
+
+                <li>
+                    Masala Dosa - ₹60
+                </li>
+
+                <li>
+                    Poha - ₹30
+                </li>
+
+                <li>
+                    Veg Thali - ₹90
+                </li>
+
+                <li>
+                    Paneer Rice - ₹80
+                </li>
+
+                <li>
+                    Veg Biryani - ₹75
+                </li>
+
+                <li>
+                    Samosa - ₹20
+                </li>
+
+                <li>
+                    Veg Sandwich - ₹50
+                </li>
+
+                <li>
+                    French Fries - ₹45
+                </li>
+
+                <li>
+                    Tea - ₹15
+                </li>
+
+                <li>
+                    Coffee - ₹25
+                </li>
+
+                <li>
+                    Fresh Lime Juice - ₹30
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; 2026 Campus Canteen | Open Monday–Saturday
+    </footer>
+
+</body>
+</html>
